@@ -1,0 +1,16 @@
+platform :ios, '7.0'
+
+inhibit_all_warnings!
+
+pod 'SDWebImage', '~>3.7'
+pod 'INTULocationManager', '~> 4.0.0'
+pod 'EAIntroView'
+pod 'MBProgressHUD'
+pod 'AFNetworking', '~> 2.0'
+pod 'DZNEmptyDataSet'
+pod 'JSBadgeView'
+pod 'Masonry'
+pod 'NJKWebViewProgress'
+pod 'TSMessages'
+pod 'RESideMenu'
+pod 'YYKeyboardManager'

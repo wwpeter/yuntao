@@ -1,0 +1,47 @@
+//
+//  TSPrefix.pch
+//  YT_business
+//
+//  Created by chun.chen on 15/6/1.
+//  Copyright (c) 2015年 chun.chen. All rights reserved.
+//
+
+#ifndef DangKe_Prefix_pch
+#define DangKe_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
+
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import "NSStrUtil.h"
+#import "YTLoginModel.h"
+#import <objc/runtime.h>
+#import "YTTaskHandler.h"
+#import "YTMacroDefine.h"
+#import "UIScrollView+YTPull.h"
+#import "UIColor+hexFloatColor.h"
+#import "AFHTTPRequestOperation+urlTag.h"
+#import "UIImageView+setYTImageWithURL.h"
+
+//define this constant if you want to use Masonry without the 'mas_' prefix
+#define MAS_SHORTHAND
+#import <Masonry.h>
+
+#endif
+
+#if DEBUG
+//#warning NSLogs will be show
+#else
+    #define NSLog(...) {}
+#endif
+
+
+
+
+
+
+
